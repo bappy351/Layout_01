@@ -1,13 +1,45 @@
 *{margin: 0px; padding: 0px}
 
-.header{min-height: 150px; background-color: cornflowerblue;color: white;text-align: center;overflow: hidden}
+.header{
+  min-height: 150px;
+  background-color: cornflowerblue;
+  color: white;text-align: center;
+  overflow: hidden
+}
 
-.content{overflow: hidden}
+.content{
+  overflow: hidden
+}
 
-.sidebar{min-height: 500px;background-color: darkslateblue;color: skyblue;text-align: center;width: 25%;float: left;overflow: hidden}
+.sidebar{
+  min-height: 500px;
+  background-color: darkslateblue;
+  color: skyblue;
+  text-align: center;
+  width: 25%;float: left;
+  overflow: hidden
+}
 
-.content_text{min-height: 500px;background-color: royalblue;color: brown;text-align: center;width: 75%;margin-left: 25%;overflow: hidden}
+.content_text{
+  text-align: center;
+  width: 75%;
+  float: right;
+  overflow: hidden;
+}
 
-.footer{min-height: 100px; background-color: cornflowerblue; color: white; text-align: center;overflow: hidden}
+.footer{
+  min-height: 100px;
+  background-color: cornflowerblue;
+  color: white;
+  text-align: center;
+  overflow: hidden
+}
 
-.block1{height: 120px; width: 25%; background-color: indigo;color: goldenrod;text-align: center;overflow: hidden;margin: auto; float: right; margin: 30px 80px; padding: 25px 62px;}
+.block1{
+ color: goldenrod;
+    text-align: center;
+    margin: auto;
+    float: left;
+    margin: 23px 60px;
+    padding: 29px 60px;
+}
