@@ -7,42 +7,44 @@
   overflow: hidden
 }
 
-.content{
-  overflow: hidden
+.content {
+    min-height: 500px;
+    overflow: hidden;
 }
 
 .sidebar{
-  min-height: 500px;
-  background-color: darkslateblue;
-  color: skyblue;
-  text-align: center;
-  width: 25%;float: left;
-  overflow: hidden
+    min-height: 500px;
+    background-color: darkslateblue;
+    color: skyblue;
+    text-align: center;
+    width: 25%;
+    float: left;
+    overflow: hidden
 }
 
 .content_text{
-  text-align: center;
-  width: 75%;
-  float: right;
-  overflow: hidden;
-}
-
-.footer{
-  min-height: 100px;
-  background-color: cornflowerblue;
-  color: white;
-  text-align: center;
-  overflow: hidden
+    background-color: mediumslateblue;
+    text-align: center;
+    width: 75%;
+    float: right;
+    overflow: hidden;
+    min-height: 500px;
 }
 
 .block1{
-   height: 120px;
-   width: 25%;
-   background-color: indigo;
-   color: goldenrod;
-   text-align: center;
-   margin: auto;
-   float: left;
-   margin: 23px 60px;
-   padding: 29px 60px;
+    background-color: indigo;
+    width: 25%;
+    min-height: 150px;
+    color: goldenrod;
+    text-align: center;
+    float: left;
+    margin: 35px 47px;
+    padding: 2px 77px
+}
+
+.footer {
+    min-height: 100px;
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
 }
